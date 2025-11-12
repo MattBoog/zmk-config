@@ -10,5 +10,8 @@ manifest:
     - name: zmk
       remote: zmkfirmware
       import: app/west.yml
+    - name: lotus58-ble-zmk
+      remote: MattBoog
+      revision: main
   self:
     path: config
